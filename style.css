@@ -81,6 +81,7 @@ linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
 background-blend-mode: overlay;
 color: white;
 padding: 20px;
+display: flex;
 
 }
 .service-btn{
@@ -91,9 +92,11 @@ padding: 20px;
     font-size: 40px;
 }
 .service-description{
+
  font-size: 20px;
- width: 50%;
+ width: 100%;
  padding: 10px;
+
 
 }
 .auther-details{
@@ -101,7 +104,7 @@ padding: 20px;
     /* justify-content: center; */
     align-items:center;
     /* padding:7px; */
-    border-right: 1px solid rgb(245, 44, 44);
+    /* border-right: 1px solid rgb(245, 44, 44); */
 
     
 
@@ -129,5 +132,36 @@ padding: 20px;
     font-size: 18px;
     color: rgb(190, 207, 208);
 }
+.service-left-container{
+    width: 50%;
+ 
+}
 
 /* Service section end */
+
+/* service right section start */
+.servies-up{
+    display: flex;
+}
+.service-down{
+    display: flex;
+}
+.service{
+   
+    box-shadow: 4px 4px 8px rgb(26, 24, 24);
+    /* background:linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)); */
+    background-color: white;
+    color: black;
+    border-radius:5px;
+    padding: 50px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    margin: 5px;
+}
+.service-logo{
+    width: 100px;
+    padding: 20px;
+}
+/* service right section start */
