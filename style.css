@@ -155,8 +155,8 @@ display: flex;
     border-radius:5px;
     padding: 50px;
     text-align: center;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-right: 10px;
     margin: 5px;
 }
@@ -165,3 +165,37 @@ display: flex;
     padding: 20px;
 }
 /* service right section start */
+
+
+/* appoinment section start */
+.call-icon{
+    width: 90px;
+}
+.phone-call{
+    display: flex;
+    padding: 5px;
+    border-right: 1px solid rgb(100, 97, 97);
+}
+.appointment-section{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: -70px;
+    
+}
+.app-description{
+    width: 75%;
+}
+.appointment-btn{
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    margin: 5px; 
+    border-radius: 20px;
+}
+/* appoinment section end */
